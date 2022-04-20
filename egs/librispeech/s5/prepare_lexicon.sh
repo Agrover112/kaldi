@@ -14,8 +14,8 @@ our_words=$3
 
 
 #if [ $# -ne 3 ]; then
-#  echo "Usage: $0 [options] <words> <stage> <nj>"
-#  echo "e.g.:  prepare_lexicon.sh   data/local/librispeech-vocab.txt 1 4"
+#  echo "Usage: $0 [options] <stage> <nj> <words>"
+#  echo "e.g.:  prepare_lexicon.sh   1 4 data/local/librispeech-vocab.txt"
 #  echo "  --nj <nj>            # number of jobs to run, default: 4."
 #  exit 1
 #fi
